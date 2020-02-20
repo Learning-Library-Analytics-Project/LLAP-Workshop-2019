@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono|Roboto+Condensed|Open+Sans+Condensed:300|Lato|Lora|Fira+Sans|Fira+Code");
+@import url(https://cdn.rawgit.com/tonsky/FiraCode/1.205/distr/fira_code.css);
+
+.remark-slide-content.title-slide {
+    background-color: #002b36;
+}
+
+.title-slide, .title-slide h1, .title-slide h2, .title-slide h3 {
+    color: #fdf6e3;
+    font-family: 'Josefin Sans', 'Open Sans Condensed', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+.remark-slide-content {
+    background-color: #fffff8; /*#fdf6e3;*/
+    font-size: 20px;
+    padding: 1em 4em 1em 4em;
+
+}
+
+body {
+  background-color: #fffff8;
+}
+
+p {
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 300;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Open Sans Condensed', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+  color: #990024;
+}
+
+
+
+/*Output */
+.remark-code {
+  font-family: 'Roboto Mono', 'Fira Code', Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', 'Courier New', monospace;
+  font-size: 50%;
+}
+
+/* displayed code*/
+.r {
+  font-size: 66%;
+}
+
+/* text highlights */
+.emph {
+  color: #E32D00 ;  /*#ff5500 #D14300*/
+  font-weight: 500;
+}
+
+/* pack func and objclass colors initially come from hcl(seq(90,360, length.out=4), c=80, l=80); redone for contrast*/
+.pack {
+  color: #990071; /*#AC9CFF #e41a1c*/
+  font-weight: 500;
+}
+
+.func {
+  color: #007020;   /*#007199 #00CBB6; #984ea3; can just use `` instead*/
+  font-weight: bold;
+}
+
+.objclass {
+  color:  #947100;  /*#AAB400 #4daf4a; #FFC5D0*/
+  font-weight: 500;
+}
+
+.remark-slide-content ul, li {
+    font-size: 90%;
+}
